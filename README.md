@@ -1,6 +1,6 @@
 # Corso Python di Welcome To Unical.
 
-Da studenti per studenti. 
+Da studenti per studenti. Completamente gratuito. Forse ci conosci gia', siamo proprio all'Unical!
 
 "Una marcia in piu’ per superare l’esame di informatica"
 
