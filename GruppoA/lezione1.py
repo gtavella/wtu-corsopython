@@ -1,6 +1,7 @@
 # Corso Python WTU - Gruppo A - Lezione 1 - 19/02/2024
 
 
+
 # operatore di assegnamento: assegno il valore 5 alla variabile x. non ritorna niente
 x=5
 
@@ -12,6 +13,36 @@ x==5
 # siccome x e' uguale a 5, e' vero che x e' diverso da 5? no, e' falso che x e' diverso da 5.
 # quindi e' vero che e' falso che x e' diverso da 5, cioe' e' vero che e' vero che x e' uguale a 5
 x!=5
+
+
+#***********
+
+# Qual e' il valore di y? 7
+x=5
+y=x+1
+y+=1
+
+#***************
+
+# Quali sono gli elementi della lista L? [1,1,0]
+L=[0,0,0]
+L[0]=1
+A=L
+A[1]=1
+
+
+#************
+
+# Che valore ha z? 9
+def f(x):
+  return x**2
+
+def g(x):
+  return x+1
+
+x=2
+z=f(g(x))
+
 
 
 #*************
