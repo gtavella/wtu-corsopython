@@ -1,3 +1,4 @@
+# Corso Python WTU - Gruppo A - Lezione 1 - 19/02/2024
 
 
 # operatore di assegnamento: assegno il valore 5 alla variabile x. non ritorna niente
