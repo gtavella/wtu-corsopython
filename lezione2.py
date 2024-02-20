@@ -29,10 +29,6 @@ def create_cont_sublists(L,k):
 
 
 
-
-
-
-
 # per ordinare una lista in senso crescente
 # senso crescente significa che gli elementi piu' grandi vanno alla fine, quindi if L[j]>L[j+1] allora 
 # scambia l'elemento con indice j con l'elemento con indice j+1
