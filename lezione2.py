@@ -25,3 +25,29 @@ def create_cont_sublists(L,k):
 # L=[1,2,3,4,5,6,7,8,9]
 # print(create_cont_sublists(L,2))
 # [[1, 2], [3, 4], [5, 6], [7, 8], [9]]
+
+
+
+
+
+
+
+
+# per ordinare una lista in senso crescente
+# senso crescente significa che gli elementi piu' grandi vanno alla fine, quindi if L[j]>L[j+1] allora scambia l'elemento con indice j con l'elemento con indice j+1
+def bubble_sort(L):
+  # se creo una copia della lista, non modifico la lista iniziale. Se invece lavoro sulla stessa lista, la lista iniziale viene modificata. Gira il codice con e senza la prossima riga e vedi la differenza in cosa viene stampato
+  L=L[:]
+  # quando prendiamo i successivi o prossimi elemento, 
+  # devo stare attento a dove parto e dove finisco
+  for i in range(len(L)-1):
+    for j in range(len(L)-1-i):
+      if L[j]>L[j+1]:
+        t=L[j]
+        L[j]=L[j+1]
+        L[j+1]=t
+
+L=[1,4,5,2,3]
+print(bubble_sort(L))
+print(L)
+
