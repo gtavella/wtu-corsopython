@@ -1,4 +1,4 @@
-# Lezione 2 - 20/02/2024
+# Corso Python WTU - Lezione 2 - 20/02/2024
 
 
 # Given a list, create adjacents sublists of k length.
