@@ -36,6 +36,7 @@ Quindi stesso contenuto, diversi indirizzi di memoria. Siccome sono in diversi i
 anche se all'interno sono identici, sono di fatti due oggetti diversi.
 E' come dire che due persone hanno la stessa personalita' solo perche' hanno lo stesso nome. 
 Stesso nome, personalita' diverse.
+Oppure stesso nome, personalita' uguale - ma questa e' solo una coincidenza e non e' garantito.
 
 Se invece ho:
 
