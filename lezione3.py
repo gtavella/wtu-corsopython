@@ -210,9 +210,23 @@ for lettera in lettere:
 
 
 # se avessi invece creato tanti if, o tante variabili, tante quanti sono il numero di input, 
-# avrei creato un programma impossibile di scalare o riutilizzare. 
-# Quindi l'astuzia e' farsi questa domanda: come posso aumentare le funzionalita' del mio programma, senza aumentare la complessita' di ogni specifica soluzione?
-# Un modo e' questo che abbiamo appena visto sopra: creo una soluzione che vale per un caso specifico, 
+# avrei creato un programma impossibile da scalare o riutilizzare. 
+# Quindi l'astuzia e' farsi questa domanda: come posso aumentare le funzionalita' del mio programma, 
+# senza aumentare di troppo la complessita' della soluzione in proporzione all'input?
+# Cioe' se ho k input, non posso di certo creare k variabili o if.
+
+# Quindi posso pensare a dei modi di generalizzare la soluzione cominciando a parlare di k input invece di 4 input, ad esempio.
+# Come? Posso cominciare a notare le cose specifiche che utilizzo nel mio programma. 
+# Quantita' specifiche, numeri prefissati, oggetti inizializzati etc. spesso bisogna generalizzare il piu' possibile 
+# e avere troppe oggetti/numeri concreti (aiuta all'inizio ad imparare a programmare, sicuramente) 
+# tuttavia quando il programma cresce, non rende il codice riutilizzabile.
+
+# Se utilizzo un numero concreto/specifico, ad esempio 7, posso chiamarlo x.
+# Se utilizzo una lista specifica [6,3,0] posso generalizzarla e chiamarla L.
+# Sostituire lo specifico con il generico/parametrico - questa e' la strategia. 
+# Ne segue che piu' cose specifiche/prefissate ho, meno scalabile e riutilizzabile sara' il mio programma.
+
+# Un modo per generalizzare e' questo che abbiamo appena visto sopra: creo una soluzione che vale per un caso specifico, 
 # e poi applico qualche tipo di iterazione per applicare quella specifica soluzione n volte 
 
 
